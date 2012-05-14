@@ -218,7 +218,9 @@ td { vertical-align: top; }
    Author:
    ========================================================================== */
 
+h1 { text-align: center; margin: 1em auto 0.25em; }
 
+label { display: block; }
 
 
 
