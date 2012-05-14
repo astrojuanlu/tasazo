@@ -11,11 +11,13 @@ var p4 = 120.0;
 
 $(document).ready(function(){
 	// Calcula el precio de la matrícula nada más cargar la página
-	$("#resultado").val(calcular());
+	p = calcular()
+	$("#resultado").text(p.toFixed(2) + ' €');
 	
 	// Recalcula el precio al cambiar los valores del formulario
 	$("#calculo input").change(function(event){
-		$("#resultado").val(calcular());
+		p = calcular()
+		$("#resultado").text(p.toFixed(2) + ' €');
 	});
 });
 
