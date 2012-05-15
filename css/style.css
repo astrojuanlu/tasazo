@@ -32,7 +32,7 @@ audio:not([controls]) { display: none; }
 
 html { font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
 
-html, button, input, select, textarea { font-family: sans-serif; color: #222; }
+html, button, input, select, textarea { font-family: sans-serif; color: black; }
 
 body { margin: 0; font-size: 1em; line-height: 1.4; }
 
@@ -42,8 +42,8 @@ body { margin: 0; font-size: 1em; line-height: 1.4; }
  * Also: hot pink! (or customize the background color to match your design)
  */
 
-::-moz-selection { background: #fe57a1; color: #fff; text-shadow: none; }
-::selection { background: #fe57a1; color: #fff; text-shadow: none; }
+::-moz-selection { background: #ffab05; color: #000; text-shadow: none; }
+::selection { background: #ffab05; color: #000; text-shadow: none; }
 
 
 /* =============================================================================
@@ -218,22 +218,29 @@ td { vertical-align: top; }
    Author:
    ========================================================================== */
 
-h1 { text-align: center; margin: 1em auto 0.25em; }
+body { background-color: #ed0; background-image: url('/img/bg.jpg'); }
+
+h1 { color: black; font-family: 'Stardos Stencil', sans-serif; font-size: 2em; text-align: center; margin: 1em auto 0.25em; text-transform: uppercase; }
+h1 span { font-size: 1.5em; }
+h2 { font-family: 'Stardos Stencil', sans-serif; }
+h2, p { color: #eee; background-color: black; padding: 0.3em; }
 
 label { display: block; }
 
+p { text-align: center; }
+p strong { color: white; }
+p.important { font-family: 'Stardos Stencil', sans-serif; font-size: 1.5em; }
 
+dl dt { color: black; font-size: 1.2em; font-weight: bold; }
+form, dl dd, ul li { background-color: black; color: #eee; padding: 0.3em; margin-bottom: 0.5em; }
 
+form label { font-weight: bold; font-size: 1em; } form input { margin-bottom: 0.5em; }
 
+ul { list-style-type: none; }
+ul li { position: relative; }
+li:before { content: '\0023'; color: black; font-size: 1.5em; font-weight: bold; left: -20px; position: absolute; top: -2px; }
 
-
-
-
-
-
-
-
-
+#referencias + ul { font-size: 0.8em; }
 
 /* ==|== media queries ======================================================
    EXAMPLE Media Query for Responsive Design.

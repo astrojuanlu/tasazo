@@ -21,6 +21,7 @@
   <!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
 
   <link rel="stylesheet" href="css/style.css">
+  <link href='http://fonts.googleapis.com/css?family=Stardos+Stencil:700' rel='stylesheet' type='text/css'>
 
   <!-- More ideas for your <head> here: h5bp.com/d/head-Tips -->
 
@@ -38,11 +39,11 @@
   </header>
   <div role="main">
   
-  <h1>¿Cuánto cuesta el #tasazo?</h1>
+  <h1>¿Cuánto cuesta el <span>#tasazo?</span></h1>
   
-  <p>Como ya sabes, una de las medidas que contempla el Real Decreto-ley 14/2012[1] es un <strong>fuerte incremento de las tasas universitarias</strong>, que te afecta directamente como estudiante.</p>
+  <p>Como ya sabes, una de las medidas que contempla el Real Decreto-ley 14/2012 es un <strong>fuerte incremento de las tasas universitarias</strong>, que te afecta directamente como estudiante.</p>
   
-  <p>¡Averigua cuánto!</p>
+  <p class="important">¡Averigua cuánto!</p>
   
   <form id="calculo" name="calculo">
 
@@ -60,14 +61,34 @@
 	
   </form>
   
-  <p>Total:</p>
-  <p id="resultado">0.00 €</p>
+  <p class="important">Total: <span id="resultado">0.00 €</span></p>
   
-  <h2>Referencias</h2>
+  <h2>¡Quiero saber más!</h2>
+  
+  <dl id="saber-mas">
+  
+	<dt>¿Qué es este Real Decreto?</dt>
+	<dd>[...]</dd>
+  
+	<dt>¿A qué viene esta subida de tasas?</dt>
+	<dd>[...]</dd>
+  
+	<dt>¿Será en todas las Comunidades Autónomas igual?</dt>
+	<dd>[...]</dd>
+  
+	<dt>No me creo estos números. ¿De dónde los habéis sacado?</dt>
+	<dd>[...]</dd>
+  
+	<dt>¡Esto es un robo! ¿Qué puedo hacer?</dt>
+	<dd>[...]</dd>
+  
+  </dl>
+  
+  <h2 id="referencias">Referencias</h2>
   
   <ul>
   
-	<li>[1]: «Real Decreto-ley 14/2012, de 20 de abril, de medidas urgentes de racionalización del gasto público en el ámbito educativo» http://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-5337.</li>
+	<li>Real Decreto-ley 14/2012, de 20 de abril, de medidas urgentes de racionalización del gasto público en el ámbito educativo http://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-5337.</li>
 
   </ul>
 
