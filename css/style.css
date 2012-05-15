@@ -218,7 +218,7 @@ td { vertical-align: top; }
    Author:
    ========================================================================== */
 
-body { background-color: #ed0; background-image: url('/img/bg.jpg'); }
+body { background-color: #ed0; background-image: url('../img/bg.jpg'); }
 
 h1 { color: black; font-family: 'Stardos Stencil', sans-serif; font-size: 2em; text-align: center; margin: 1em auto 0.25em; text-transform: uppercase; }
 h1 span { font-size: 1.5em; }
