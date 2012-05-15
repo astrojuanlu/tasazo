@@ -215,7 +215,7 @@ td { vertical-align: top; }
 
 
 /* ==|== primary styles =====================================================
-   Author:
+   Author: Juan Luis Cano Rodríguez <juanlu001@gmail.com>
    ========================================================================== */
 
 body { background-color: #ed0; background-image: url('../img/bg.jpg'); }
@@ -235,12 +235,21 @@ dl dt { color: black; font-size: 1.2em; font-weight: bold; }
 form, dl dd, ul li { background-color: black; color: #eee; padding: 0.3em; margin-bottom: 0.5em; }
 
 form label { font-weight: bold; font-size: 1em; } form input { margin-bottom: 0.5em; }
+form input { width: 40%; }
+
+.old { color: #ccc; font-size: 0.8em; position: relative; }
+.new { color: white; font-size: 1.2em; }
+
+form .old:before { content: url('../img/band.png'); left: -3px; position: absolute; top: -8px; }
+#resultado .old:before { content: url('../img/band_big.png'); left: -6px; position: absolute; top: -15px; }
 
 ul { list-style-type: none; }
 ul li { position: relative; }
 li:before { content: '\0023'; color: black; font-size: 1.5em; font-weight: bold; left: -20px; position: absolute; top: -2px; }
 
 #referencias + ul { font-size: 0.8em; }
+
+/* ==|== END OF primary styles =====================================================
 
 /* ==|== media queries ======================================================
    EXAMPLE Media Query for Responsive Design.

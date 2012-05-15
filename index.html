@@ -45,23 +45,25 @@
   
   <p class="important">¡Averigua cuánto!</p>
   
+  <h2>Créditos matriculados</h2>
+  
   <form id="calculo" name="calculo">
 
 	<label>1ª matrícula:</label>
-	<input type="number" min="0" max="120" step="1" value="60" id="matricula1" name="matricula1" required="required" /> × 30.0 €
+	<input type="number" min="0" max="120" step="1" value="60" id="matricula1" name="matricula1" required="required" /> × <span class="old">17.01 €</span> <span class="new">30.00 €</span>
 
 	<label>2ª matrícula:</label>
-	<input type="number" min="0" max="120" step="1" value="0" id="matricula2" name="matricula2" /> × 48.0 €
+	<input type="number" min="0" max="120" step="1" value="0" id="matricula2" name="matricula2" /> × <span class="old">21.26 €</span> <span class="new">48.00 €</span>
 
 	<label>3ª matrícula:</label>
-	<input type="number" min="0" max="120" step="1" value="0" id="matricula3" name="matricula3" /> × 108.0 €
+	<input type="number" min="0" max="120" step="1" value="0" id="matricula3" name="matricula3" /> × <span class="old">28.92 €</span> <span class="new">90.00 €</span>
 
 	<label>4ª matrícula y siguientes:</label>
-	<input type="number" min="0" max="120" step="1" value="0" id="matricula4" name="matricula4" /> × 120.0 €
+	<input type="number" min="0" max="120" step="1" value="0" id="matricula4" name="matricula4" /> × <span class="old">28.92 €</span> <span class="new">120.00 €</span>
 	
   </form>
   
-  <p class="important">Total: <span id="resultado">0.00 €</span></p>
+  <p id="resultado" class="important">Total: <span class="old">0.00 €</span> <span class="new">0.00 €</span></p>
   
   <h2>¡Quiero saber más!</h2>
   
@@ -73,11 +75,29 @@
 	<dt>¿A qué viene esta subida de tasas?</dt>
 	<dd>[...]</dd>
   
-	<dt>¿Será en todas las Comunidades Autónomas igual?</dt>
+	<dt>¿Será en todas las Comunidades Autónomas y Universidades igual?</dt>
 	<dd>[...]</dd>
   
 	<dt>No me creo estos números. ¿De dónde los habéis sacado?</dt>
-	<dd>[...]</dd>
+	<dd>Estos son los precios del año 2011/12 en la Universidad Politécnica de Madrid:
+	
+		<ul>
+			<li>1º matrícula --> 17.01 € / crédito</li>
+			<li>2º matrícula --> 21.26 € / crédito</li>
+			<li>3º matrícula y sucesivas --> 28.92 € / crédito</li>
+		</ul>
+
+
+		Y estos son los precios del año 2012/13 estimados según la aplicación del artículo 6 del RD 14/2012 en su máximo valor dentro de la horquilla prevista para los precios públicos, tal y como ha anunciado la Presidenta de la Comunidad de Madrid:
+		
+		<ul>
+			<li>25% para la 1º matrícula --> 30 € / crédito</li>
+			<li>40% para la 2º matrícula --> 48 € / crédito</li>
+			<li>75% para la 3º matrícula --> 90 € / crédito</li>
+			<li>100% para la 4º matrícula y sucesivas --> 120 € / crédito</li>
+		</ul>
+
+		El gasto por alumno y año se cifra en 7200 € y corresponde al valor de 60 créditos (120 € / crédito).</dd>
   
 	<dt>¡Esto es un robo! ¿Qué puedo hacer?</dt>
 	<dd>[...]</dd>
